@@ -1,0 +1,17 @@
+D:\Dotnet projects\PracticleDemo\Student_Business\bin\Debug\net6.0\Student_Business.deps.json
+D:\Dotnet projects\PracticleDemo\Student_Business\bin\Debug\net6.0\Student_Business.runtimeconfig.json
+D:\Dotnet projects\PracticleDemo\Student_Business\bin\Debug\net6.0\Student_Business.dll
+D:\Dotnet projects\PracticleDemo\Student_Business\bin\Debug\net6.0\Student_Business.pdb
+D:\Dotnet projects\PracticleDemo\Student_Business\bin\Debug\net6.0\Student_Data.dll
+D:\Dotnet projects\PracticleDemo\Student_Business\bin\Debug\net6.0\Student_Data.pdb
+D:\Dotnet projects\PracticleDemo\Student_Business\obj\Debug\net6.0\Student_Business.csproj.AssemblyReference.cache
+D:\Dotnet projects\PracticleDemo\Student_Business\obj\Debug\net6.0\Student_Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet projects\PracticleDemo\Student_Business\obj\Debug\net6.0\Student_Business.AssemblyInfoInputs.cache
+D:\Dotnet projects\PracticleDemo\Student_Business\obj\Debug\net6.0\Student_Business.AssemblyInfo.cs
+D:\Dotnet projects\PracticleDemo\Student_Business\obj\Debug\net6.0\Student_Business.csproj.CoreCompileInputs.cache
+D:\Dotnet projects\PracticleDemo\Student_Business\obj\Debug\net6.0\Student_.D376DAE6.Up2Date
+D:\Dotnet projects\PracticleDemo\Student_Business\obj\Debug\net6.0\Student_Business.dll
+D:\Dotnet projects\PracticleDemo\Student_Business\obj\Debug\net6.0\refint\Student_Business.dll
+D:\Dotnet projects\PracticleDemo\Student_Business\obj\Debug\net6.0\Student_Business.pdb
+D:\Dotnet projects\PracticleDemo\Student_Business\obj\Debug\net6.0\Student_Business.genruntimeconfig.cache
+D:\Dotnet projects\PracticleDemo\Student_Business\obj\Debug\net6.0\ref\Student_Business.dll

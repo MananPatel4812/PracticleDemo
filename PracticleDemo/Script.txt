@@ -1,0 +1,120 @@
+-----
+CREATE TABLE [dbo].[State](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](50) NOT NULL,
+ CONSTRAINT [PK_State] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+-----
+
+CREATE TABLE [dbo].[City](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](50) NOT NULL,
+	[StateId] [int] NOT NULL,
+ CONSTRAINT [PK_City] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[City]  WITH CHECK ADD  CONSTRAINT [FK_City_State] FOREIGN KEY([StateId])
+REFERENCES [dbo].[State] ([Id])
+GO
+
+ALTER TABLE [dbo].[City] CHECK CONSTRAINT [FK_City_State]
+GO
+
+-----
+
+CREATE TABLE [dbo].[Student](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[StateId] [int] NOT NULL,
+	[CityId] [int] NOT NULL,
+	[Name] [varchar](50) NULL,
+	[Address] [varchar](50) NULL,
+	[Email] [varchar](50) NULL,
+	[PhoneNo] [bigint] NULL,
+	[IsActive] [tinyint] NULL,
+ CONSTRAINT [PK_Student] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[Student] ADD  CONSTRAINT [DF_Student_IsActive]  DEFAULT ((1)) FOR [IsActive]
+GO
+
+ALTER TABLE [dbo].[Student]  WITH CHECK ADD  CONSTRAINT [FK_Student_City] FOREIGN KEY([CityId])
+REFERENCES [dbo].[City] ([Id])
+GO
+
+ALTER TABLE [dbo].[Student] CHECK CONSTRAINT [FK_Student_City]
+GO
+
+ALTER TABLE [dbo].[Student]  WITH CHECK ADD  CONSTRAINT [FK_Student_State] FOREIGN KEY([StateId])
+REFERENCES [dbo].[State] ([Id])
+GO
+
+ALTER TABLE [dbo].[Student] CHECK CONSTRAINT [FK_Student_State]
+GO
+
+
+----StoreProcedure
+
+ALTER PROCEDURE [dbo].[studentManager]
+@type VARCHAR(500),
+@id INT = NULL,
+@stateId INT = NULL,
+@cityId INT = NULL,
+@name VARCHAR(50)= NULL,
+@address VARCHAR(50) = NULL,
+@email VARCHAR(50)= NULL,
+@phoneNo bigInt = NULL
+
+AS
+BEGIN
+	 IF(@type='GetAll')
+	BEGIN
+		SELECT s.Id,s.Name,s.Address,s.Email,s.PhoneNo, c.name AS City,st.name As State
+		FROM Student s 
+		INNER JOIN  City c ON c.Id=s.cityId 
+		INNER JOIN State st On st.Id=s.StateId 
+		WHERE s.IsActive=1
+	END
+	ELSE IF(@type='StateList')
+	BEGIN
+		SELECT Id , Name FROM state;
+	END
+	ELSE IF(@type='GetCityByState')
+	BEGIN
+		SELECT Id, Name FROM City WHERE StateId=@stateId;
+	END
+	ELSE IF(@type='GetById')
+	BEGIN
+		SELECT Id, Name, address, Email, PhoneNo, CityId, StateId FROM Student WHERE Id=@id;
+	END
+	ELSE IF(@type='Insert')
+	BEGIN
+		INSERT INTO student (StateId,CityId,Name,Address,Email,PhoneNo)
+		VALUES(@stateId,@cityId,@name,@address,@email,@phoneNo);
+	END
+	ELSE IF(@type='Update')
+	BEGIN
+		Update Student SET name=@name, Address=@address,Email=@email, phoneNo=@phoneNo, StateId=@stateId, CityId=@cityId WHERE id=@id
+	END
+	ELSE IF(@type='Delete')
+	BEGIN
+		Update student SET IsActive=0 WHERE Id=@id;
+	END
+END
+
+
+
+
+

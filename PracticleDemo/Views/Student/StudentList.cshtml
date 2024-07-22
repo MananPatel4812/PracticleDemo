@@ -1,0 +1,372 @@
+﻿@model Student_Data.Model.StudentModel
+
+@{
+    ViewData["Title"] = "StudentList";
+}
+
+<h1>StudentList</h1>
+
+<p>
+    <button type="button" class="btn btn-primary btn-add">Add Student</button>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+               Id
+            </th>
+            <th>
+               StateId
+            </th>
+            <th>
+                CityId
+            </th>
+            <th>
+               Name
+            </th>
+            <th>
+                Address
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                PhoneNo
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.StudentList) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.State)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.City)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNo)
+            </td>
+            <td>
+                    <a class="btn-edit text-black me-2" data-id="@item.Id">
+                      Edit
+                    </a> |
+               <a class="btn-delete text-black me-2" data-id="@item.Id">
+                      Delete
+                    </a> 
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<div class="modal fade" id="addModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add Student</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="AddStudent">
+                    <div class="form-group">
+                        <label asp-for="student.StateId" class="control-label"></label>
+                        <select asp-for="student.StateId" class="form-control" id="stateId">
+                            <option value="">-- SELECT --</option>
+                            @foreach (var state in Model.StateList)
+                            {
+                                <option value="@state.Id">@state.Name</option>
+                            }
+                        </select>
+                        <span asp-validation-for="student.StateId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="student.CityId" class="control-label"></label>
+                        <select asp-for="student.CityId" class="form-control" id="cityId">
+                            <option value="">-- SELECT --</option>
+                        </select>
+                        <span asp-validation-for="student.CityId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="student.Name" class="control-label"></label>
+                        <input asp-for="student.Name" class="form-control" />
+                        <span asp-validation-for="student.Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="student.Address" class="control-label"></label>
+                        <input asp-for="student.Address" class="form-control" />
+                        <span asp-validation-for="student.Address" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="student.Email" class="control-label"></label>
+                        <input asp-for="student.Email" class="form-control" />
+                        <span asp-validation-for="student.Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="student.PhoneNo" class="control-label"></label>
+                        <input asp-for="student.PhoneNo" class="form-control" />
+                        <span asp-validation-for="student.PhoneNo" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mt-2">
+                        <input class="form-check-input" type="checkbox" id="addAgreeCheckbox">
+                        <label class="form-check-label">
+                            Agree
+                        </label>
+                    </div>
+                    <div class="form-group mt-3 text-end">
+                        <input type="submit" value="Create" class="btn btn-primary" id="addSubmitButton" disabled />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editModalLabel">Edit Student</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="UpdateStudent">
+                    <input type="hidden" id="editStudentId" asp-for="student.Id" />
+                    <div class="form-group">
+                        <label asp-for="student.StateId" class="control-label"></label>
+                        <select asp-for="student.StateId" class="form-control" id="editStateId">
+                            <option value="">-- SELECT --</option>
+                            @foreach (var state in Model.StateList)
+                            {
+                                <option value="@state.Id">@state.Name</option>
+                            }
+                        </select>
+                        <span asp-validation-for="student.StateId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="student.CityId" class="control-label"></label>
+                        <select asp-for="student.CityId" class="form-control" id="editCityId">
+                            <option value="">-- SELECT --</option>
+                        </select>
+                        <span asp-validation-for="student.CityId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="student.Name" class="control-label"></label>
+                        <input asp-for="student.Name" class="form-control" id="editName" />
+                        <span asp-validation-for="student.Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="student.Address" class="control-label"></label>
+                        <input asp-for="student.Address" class="form-control" id="editAddress" />
+                        <span asp-validation-for="student.Address" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="student.Email" class="control-label"></label>
+                        <input asp-for="student.Email" class="form-control" id="editEmail" />
+                        <span asp-validation-for="student.Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="student.PhoneNo" class="control-label"></label>
+                        <input asp-for="student.PhoneNo" class="form-control" id="editPhoneNo" />
+                        <span asp-validation-for="student.PhoneNo" class="text-danger"></span>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="submit" value="Save" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editModalLabel">Delete Student</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you you want to delete</p>
+                <form asp-action="DeleteStudent">
+                    <input type="hidden" asp-for="student.Id" id="studentId" />
+                    <div class="modal-footer">
+                        <input type="submit" value="Delete" class="btn btn-danger" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+       $(document).ready(function () {
+
+        $('.btn-add').click(function () {
+            $('#addModal').modal('show');
+        });
+
+        $('.btn-edit').click(function (e) {
+            e.preventDefault();
+            var studentId = $(this).data('id');
+
+            $.ajax({
+                url: '@Url.Action("GetStudentById", "Student")',
+                type: 'GET',
+                data: { id: studentId },
+                success: function (data) {
+                    $('#editStudentId').val(data.id);
+                    $('#editStateId').val(data.stateId).change();
+                    $('#editName').val(data.name);
+                    $('#editAddress').val(data.address);
+                    $('#editEmail').val(data.email);
+                    $('#editPhoneNo').val(data.phoneNo);
+
+                    populateCities(data.stateId, '#editCityId', data.cityId);
+
+                    $('#editModal').modal('show');
+                }
+            });
+        });
+
+        $('#editStateId').change(function () {
+            var stateId = $(this).val();
+            populateCities(stateId, '#editCityId', null);
+        });
+        $('#stateId').change(function () {
+            var stateId = $(this).val();
+            populateCities(stateId, '#cityId', null);
+        });
+
+        function populateCities(stateId, cityDropdownId, selectedCityId) {
+            $.ajax({
+                url: '@Url.Action("GetCityByState", "Student")',
+                type: 'GET',
+                data: { stateId: stateId },
+                success: function (data) {
+                    $(cityDropdownId).empty();
+                    $(cityDropdownId).append('<option value="">-- SELECT --</option>');
+                    $.each(data, function (index, city) {
+                        $(cityDropdownId).append('<option value="' + city.id + '">' + city.name + '</option>');
+                    });
+                    if (selectedCityId) {
+                        $(cityDropdownId).val(selectedCityId);
+                    }
+                }
+            });
+        }
+
+        $('.btn-delete').click(function () {
+            $('#deleteModal').modal('show');
+            var studentId = $(this).data('id');
+             $.ajax({
+                url: '@Url.Action("DeleteStudent", "Student")',
+                type: 'Post',
+                data: { id: studentId },
+                success: function (data) {
+                    $('#studentId').val(data.id);
+
+                }
+            });
+        });
+
+        $('#addAgreeCheckbox').change(function () {
+            $('#addSubmitButton').prop('disabled', !this.checked);
+        });
+    });
+</script>
+
+@* <script>
+    console.log("hello");
+    //for add button
+    $(document).ready(function () {
+        console.log("hello")
+        $('.btn-add').click(function () {
+            console.log("hii")
+            $('#addModel').modal('show');
+        }
+
+            $('.btn-edit').click(function () {
+            
+            var studentId = $(this).data('id');
+
+            $.ajax({
+                url: '@Url.Action("GetStudentById", "Student")',
+                type: 'GET',
+                data: { id: studentId },
+                success: function (data) {
+                    $('#editStudentId').val(data.id);
+                    $('#editStateId').val(data.stateId).change();
+                    $('#editName').val(data.name);
+                    $('#editAddress').val(data.address);
+                    $('#editEmail').val(data.email);
+                    $('#editPhoneNo').val(data.phoneNo);
+
+                    populateCities(data.stateId, '#editCityId', data.cityId);
+
+                    $('#editModal').modal('show');
+                }
+            });
+        });
+
+        $('#editStateId').change(function () {
+            var stateId = $(this).val();
+            populateCities(stateId, '#editCityId', null);
+        });
+        $('#stateId').change(function () {
+            var stateId = $(this).val();
+            populateCities(stateId, '#cityId', null);
+        });
+
+        function populateCities(stateId, cityDropdownId, selectedCityId) {
+            $.ajax({
+                url: '@Url.Action("GetCityByState", "Student")',
+                type: 'GET',
+                data: { stateId: stateId },
+                success: function (data) {
+                    $(cityDropdownId).empty();
+                    $(cityDropdownId).append('<option value="">-- SELECT --</option>');
+                    $.each(data, function (index, city) {
+                        $(cityDropdownId).append('<option value="' + city.id + '">' + city.name + '</option>');
+                    });
+                    if (selectedCityId) {
+                        $(cityDropdownId).val(selectedCityId);
+                    }
+                }
+            });
+        }
+
+        $('.btn-delete').click(function () {
+            $('#deleteModal').modal('show');
+            var studentId = $(this).data('id');
+            $.ajax({
+                url: '@Url.Action("DeleteStudent", "Student")',
+                type: 'Post',
+                data: { id: studentId },
+                success: function (data) {
+                    $('#studentId').val(data.id);
+
+                }
+            });
+        });
+
+        //for Agree CheckBox
+        $('addAgreeCheckbox').change(function () {
+            $('addSubmitButtton').prop('disabled', !this.checked);
+        });
+    });
+</script> *@

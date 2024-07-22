@@ -1,0 +1,14 @@
+D:\Dotnet projects\PracticleDemo\Student_Data\bin\Debug\net6.0\Student_Data.deps.json
+D:\Dotnet projects\PracticleDemo\Student_Data\bin\Debug\net6.0\Student_Data.runtimeconfig.json
+D:\Dotnet projects\PracticleDemo\Student_Data\bin\Debug\net6.0\Student_Data.dll
+D:\Dotnet projects\PracticleDemo\Student_Data\bin\Debug\net6.0\Student_Data.pdb
+D:\Dotnet projects\PracticleDemo\Student_Data\obj\Debug\net6.0\Student_Data.csproj.AssemblyReference.cache
+D:\Dotnet projects\PracticleDemo\Student_Data\obj\Debug\net6.0\Student_Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet projects\PracticleDemo\Student_Data\obj\Debug\net6.0\Student_Data.AssemblyInfoInputs.cache
+D:\Dotnet projects\PracticleDemo\Student_Data\obj\Debug\net6.0\Student_Data.AssemblyInfo.cs
+D:\Dotnet projects\PracticleDemo\Student_Data\obj\Debug\net6.0\Student_Data.csproj.CoreCompileInputs.cache
+D:\Dotnet projects\PracticleDemo\Student_Data\obj\Debug\net6.0\Student_Data.dll
+D:\Dotnet projects\PracticleDemo\Student_Data\obj\Debug\net6.0\refint\Student_Data.dll
+D:\Dotnet projects\PracticleDemo\Student_Data\obj\Debug\net6.0\Student_Data.pdb
+D:\Dotnet projects\PracticleDemo\Student_Data\obj\Debug\net6.0\Student_Data.genruntimeconfig.cache
+D:\Dotnet projects\PracticleDemo\Student_Data\obj\Debug\net6.0\ref\Student_Data.dll

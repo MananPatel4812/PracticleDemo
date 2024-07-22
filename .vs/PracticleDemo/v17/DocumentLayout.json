@@ -1,0 +1,358 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dotnet projects\\PracticleDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B13072E-BA45-4FD7-9C90-68A0343F5290}|PracticleDemo\\PracticleDemo.csproj|d:\\dotnet projects\\practicledemo\\practicledemo\\views\\student\\studentlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B13072E-BA45-4FD7-9C90-68A0343F5290}|PracticleDemo\\PracticleDemo.csproj|solutionrelative:practicledemo\\views\\student\\studentlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B13072E-BA45-4FD7-9C90-68A0343F5290}|PracticleDemo\\PracticleDemo.csproj|d:\\dotnet projects\\practicledemo\\practicledemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B13072E-BA45-4FD7-9C90-68A0343F5290}|PracticleDemo\\PracticleDemo.csproj|solutionrelative:practicledemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B13072E-BA45-4FD7-9C90-68A0343F5290}|PracticleDemo\\PracticleDemo.csproj|d:\\dotnet projects\\practicledemo\\practicledemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B13072E-BA45-4FD7-9C90-68A0343F5290}|PracticleDemo\\PracticleDemo.csproj|solutionrelative:practicledemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B13072E-BA45-4FD7-9C90-68A0343F5290}|PracticleDemo\\PracticleDemo.csproj|d:\\dotnet projects\\practicledemo\\practicledemo\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8B13072E-BA45-4FD7-9C90-68A0343F5290}|PracticleDemo\\PracticleDemo.csproj|solutionrelative:practicledemo\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B13072E-BA45-4FD7-9C90-68A0343F5290}|PracticleDemo\\PracticleDemo.csproj|d:\\dotnet projects\\practicledemo\\practicledemo\\practicledemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8B13072E-BA45-4FD7-9C90-68A0343F5290}|PracticleDemo\\PracticleDemo.csproj|solutionrelative:practicledemo\\practicledemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B13072E-BA45-4FD7-9C90-68A0343F5290}|PracticleDemo\\PracticleDemo.csproj|d:\\dotnet projects\\practicledemo\\practicledemo\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B13072E-BA45-4FD7-9C90-68A0343F5290}|PracticleDemo\\PracticleDemo.csproj|solutionrelative:practicledemo\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC04596-F46A-4BF5-9AAB-303569B17387}|Student_Business\\Student_Business.csproj|d:\\dotnet projects\\practicledemo\\student_business\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFC04596-F46A-4BF5-9AAB-303569B17387}|Student_Business\\Student_Business.csproj|solutionrelative:student_business\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B13072E-BA45-4FD7-9C90-68A0343F5290}|PracticleDemo\\PracticleDemo.csproj|d:\\dotnet projects\\practicledemo\\practicledemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B13072E-BA45-4FD7-9C90-68A0343F5290}|PracticleDemo\\PracticleDemo.csproj|solutionrelative:practicledemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B13072E-BA45-4FD7-9C90-68A0343F5290}|PracticleDemo\\PracticleDemo.csproj|d:\\dotnet projects\\practicledemo\\practicledemo\\views\\student\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B13072E-BA45-4FD7-9C90-68A0343F5290}|PracticleDemo\\PracticleDemo.csproj|solutionrelative:practicledemo\\views\\student\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A97E618-6D26-4B40-B143-8B2F4217A2C8}|Student_Data\\Student_Data.csproj|d:\\dotnet projects\\practicledemo\\student_data\\repository\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A97E618-6D26-4B40-B143-8B2F4217A2C8}|Student_Data\\Student_Data.csproj|solutionrelative:student_data\\repository\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A97E618-6D26-4B40-B143-8B2F4217A2C8}|Student_Data\\Student_Data.csproj|d:\\dotnet projects\\practicledemo\\student_data\\model\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A97E618-6D26-4B40-B143-8B2F4217A2C8}|Student_Data\\Student_Data.csproj|solutionrelative:student_data\\model\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A97E618-6D26-4B40-B143-8B2F4217A2C8}|Student_Data\\Student_Data.csproj|d:\\dotnet projects\\practicledemo\\student_data\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A97E618-6D26-4B40-B143-8B2F4217A2C8}|Student_Data\\Student_Data.csproj|solutionrelative:student_data\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B13072E-BA45-4FD7-9C90-68A0343F5290}|PracticleDemo\\PracticleDemo.csproj|d:\\dotnet projects\\practicledemo\\practicledemo\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B13072E-BA45-4FD7-9C90-68A0343F5290}|PracticleDemo\\PracticleDemo.csproj|solutionrelative:practicledemo\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B13072E-BA45-4FD7-9C90-68A0343F5290}|PracticleDemo\\PracticleDemo.csproj|d:\\dotnet projects\\practicledemo\\practicledemo\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B13072E-BA45-4FD7-9C90-68A0343F5290}|PracticleDemo\\PracticleDemo.csproj|solutionrelative:practicledemo\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A97E618-6D26-4B40-B143-8B2F4217A2C8}|Student_Data\\Student_Data.csproj|d:\\dotnet projects\\practicledemo\\student_data\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A97E618-6D26-4B40-B143-8B2F4217A2C8}|Student_Data\\Student_Data.csproj|solutionrelative:student_data\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A97E618-6D26-4B40-B143-8B2F4217A2C8}|Student_Data\\Student_Data.csproj|d:\\dotnet projects\\practicledemo\\student_data\\model\\studentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A97E618-6D26-4B40-B143-8B2F4217A2C8}|Student_Data\\Student_Data.csproj|solutionrelative:student_data\\model\\studentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 112,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "D:\\Dotnet projects\\PracticleDemo\\Student_Business\\Service\\StudentService.cs",
+              "RelativeDocumentMoniker": "Student_Business\\Service\\StudentService.cs",
+              "ToolTip": "D:\\Dotnet projects\\PracticleDemo\\Student_Business\\Service\\StudentService.cs",
+              "RelativeToolTip": "Student_Business\\Service\\StudentService.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAhwEUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:16:58.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentModel.cs",
+              "DocumentMoniker": "D:\\Dotnet projects\\PracticleDemo\\Student_Data\\Model\\StudentModel.cs",
+              "RelativeDocumentMoniker": "Student_Data\\Model\\StudentModel.cs",
+              "ToolTip": "D:\\Dotnet projects\\PracticleDemo\\Student_Data\\Model\\StudentModel.cs",
+              "RelativeToolTip": "Student_Data\\Model\\StudentModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:07:09.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Dotnet projects\\PracticleDemo\\Student_Data\\Model\\Student.cs",
+              "RelativeDocumentMoniker": "Student_Data\\Model\\Student.cs",
+              "ToolTip": "D:\\Dotnet projects\\PracticleDemo\\Student_Data\\Model\\Student.cs",
+              "RelativeToolTip": "Student_Data\\Model\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:06:46.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\Dotnet projects\\PracticleDemo\\PracticleDemo\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "PracticleDemo\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\Dotnet projects\\PracticleDemo\\PracticleDemo\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "PracticleDemo\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwD0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:04:06.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentList.cshtml",
+              "DocumentMoniker": "D:\\Dotnet projects\\PracticleDemo\\PracticleDemo\\Views\\Student\\StudentList.cshtml",
+              "RelativeDocumentMoniker": "PracticleDemo\\Views\\Student\\StudentList.cshtml",
+              "ToolTip": "D:\\Dotnet projects\\PracticleDemo\\PracticleDemo\\Views\\Student\\StudentList.cshtml",
+              "RelativeToolTip": "PracticleDemo\\Views\\Student\\StudentList.cshtml",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAAEUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T10:27:58.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddStudent.cshtml",
+              "DocumentMoniker": "D:\\Dotnet projects\\PracticleDemo\\PracticleDemo\\Views\\Student\\AddStudent.cshtml",
+              "RelativeDocumentMoniker": "PracticleDemo\\Views\\Student\\AddStudent.cshtml",
+              "ToolTip": "D:\\Dotnet projects\\PracticleDemo\\PracticleDemo\\Views\\Student\\AddStudent.cshtml",
+              "RelativeToolTip": "PracticleDemo\\Views\\Student\\AddStudent.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T10:24:56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PracticleDemo",
+              "DocumentMoniker": "D:\\Dotnet projects\\PracticleDemo\\PracticleDemo\\PracticleDemo.csproj",
+              "RelativeDocumentMoniker": "PracticleDemo\\PracticleDemo.csproj",
+              "ToolTip": "D:\\Dotnet projects\\PracticleDemo\\PracticleDemo\\PracticleDemo.csproj",
+              "RelativeToolTip": "PracticleDemo\\PracticleDemo.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-22T10:04:49.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "D:\\Dotnet projects\\PracticleDemo\\PracticleDemo\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "PracticleDemo\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "D:\\Dotnet projects\\PracticleDemo\\PracticleDemo\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "PracticleDemo\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-22T12:14:03.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Dotnet projects\\PracticleDemo\\PracticleDemo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PracticleDemo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Dotnet projects\\PracticleDemo\\PracticleDemo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PracticleDemo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T12:30:33.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dotnet projects\\PracticleDemo\\PracticleDemo\\Program.cs",
+              "RelativeDocumentMoniker": "PracticleDemo\\Program.cs",
+              "ToolTip": "D:\\Dotnet projects\\PracticleDemo\\PracticleDemo\\Program.cs",
+              "RelativeToolTip": "PracticleDemo\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:59:59.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentDbContext.cs",
+              "DocumentMoniker": "D:\\Dotnet projects\\PracticleDemo\\Student_Data\\StudentDbContext.cs",
+              "RelativeDocumentMoniker": "Student_Data\\StudentDbContext.cs",
+              "ToolTip": "D:\\Dotnet projects\\PracticleDemo\\Student_Data\\StudentDbContext.cs",
+              "RelativeToolTip": "Student_Data\\StudentDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:20:24.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Dotnet projects\\PracticleDemo\\PracticleDemo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PracticleDemo\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Dotnet projects\\PracticleDemo\\PracticleDemo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PracticleDemo\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T12:18:50.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentRepo.cs",
+              "DocumentMoniker": "D:\\Dotnet projects\\PracticleDemo\\Student_Data\\Repository\\StudentRepo.cs",
+              "RelativeDocumentMoniker": "Student_Data\\Repository\\StudentRepo.cs",
+              "ToolTip": "D:\\Dotnet projects\\PracticleDemo\\Student_Data\\Repository\\StudentRepo.cs",
+              "RelativeToolTip": "Student_Data\\Repository\\StudentRepo.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAIA5wEQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T11:49:59.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Dotnet projects\\PracticleDemo\\PracticleDemo\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "PracticleDemo\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\Dotnet projects\\PracticleDemo\\PracticleDemo\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "PracticleDemo\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T11:04:41.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Dotnet projects\\PracticleDemo\\PracticleDemo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "PracticleDemo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Dotnet projects\\PracticleDemo\\PracticleDemo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "PracticleDemo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T11:04:44.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StudentResponse.cs",
+              "DocumentMoniker": "D:\\Dotnet projects\\PracticleDemo\\Student_Data\\Model\\StudentResponse.cs",
+              "RelativeDocumentMoniker": "Student_Data\\Model\\StudentResponse.cs",
+              "ToolTip": "D:\\Dotnet projects\\PracticleDemo\\Student_Data\\Model\\StudentResponse.cs",
+              "RelativeToolTip": "Student_Data\\Model\\StudentResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:06:45.383Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 288,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
